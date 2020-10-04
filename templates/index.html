@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <!-- after user submit, the sends the form to score with post method -->
+    <form action="/score" method="post">
+        word: <input type="text" name="string1"><br>
+        word: <input type="text" name="string2"><br><br>
+        <input type="submit">
+    </form>
+
+{% endblock %}
